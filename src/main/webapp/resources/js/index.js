@@ -57,6 +57,14 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
+    // 버튼 클릭 이벤트 리스너 추가
+    document.querySelector('.arrow.left').addEventListener('click', prevBanner);
+    document.querySelector('.arrow.right').addEventListener('click', nextBanner);
+
+    // 함수들을 전역에 할당
+    window.nextBanner = nextBanner;
+    window.prevBanner = prevBanner;
+
     // 실시간 인기 상품 슬라이드 스크립트
     let currentIndexPopular = 0;
     let currentIndex = 0;

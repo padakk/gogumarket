@@ -59,8 +59,8 @@
                 <img src="https://via.placeholder.com/1200x300?text=Banner+3" alt="배너 3">
             </div>
         </div>
-        <button class="arrow left" onclick="prevBanner()">&#9664;</button>
-        <button class="arrow right" onclick="nextBanner()">&#9654;</button>
+        <button class="arrow left">&#9664;</button>
+        <button class="arrow right">&#9654;</button>
     </div>
     <!-- 배너 슬라이더 -->
 
@@ -343,7 +343,7 @@
 	
 	<%@include file="footer.jsp" %>
 		
-	<script src="${pageContext.request.contextPath}/resources/js/message.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/index.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/js/message.js"></script>
 </body>
 </html>

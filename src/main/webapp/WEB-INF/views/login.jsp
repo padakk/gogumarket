@@ -52,7 +52,10 @@
     <!-- 로그인 박스 -->
     <div class="login-container">
         <div class="login-box">
+        
             <p>고구마켓에 오신 것을 환영합니다.</p>
+            
+            
             <!-- 테스트용 -->
             <!-- 아이디와 비밀번호 입력란 추가 -->
             <div class="input-fields" style="margin-top: -100px;">
@@ -61,7 +64,8 @@
                 <button type="button" style="margin-top: 10px;" onclick="DBLogin();">로그인</button>
             </div>
             <!-- 테스트용 -->
-            <button class="google-btn"><i class="fab fa-google"></i> Google로 시작하기</button>
+            
+            <button class="google-btn" style="margin-top:100px;"><i class="fab fa-google"></i> Google로 시작하기</button>
             <button class="naver-btn"><i class="fab fa-n"></i> 네이버로 시작하기</button>
             <button class="kakao-btn"><i class="fab fa-kakao"></i> 카카오로 시작하기</button>
             <button class="phone-btn"><i class="fas fa-mobile-alt"></i> 휴대폰번호로 시작하기</button>
